@@ -21,6 +21,7 @@ body {
 .site-header {
   border-bottom: 1px solid var(--tan);
   padding: 56px 20px 40px;
+  background: var(--paper);
 }
 
 .header-inner {
@@ -63,12 +64,14 @@ h2 {
 .content {
   max-width: 980px;
   margin: 0 auto;
-  padding: 40px 20px 60px;
+  padding: 36px 20px 70px;
 }
 
 .section {
-  padding: 28px 0;
-  border-bottom: 1px solid var(--tan);
+  background: #ffffff;
+  padding: 28px 28px;
+  border: 1px solid var(--tan);
+  margin: 22px 0;
 }
 
 .section:last-child {

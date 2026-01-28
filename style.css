@@ -9,6 +9,14 @@
 * {
   box-sizing: border-box;
 }
+.box {
+  width: 320px;
+  height: 120px;
+  background-color: #ffffff;
+  border: 2px solid #782c17;
+  padding: 20px;
+  margin: 24px auto;
+}
 
 body {
   margin: 0;

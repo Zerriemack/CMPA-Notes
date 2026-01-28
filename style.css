@@ -1,0 +1,48 @@
+:root {
+  --ink: #150c0a;
+  --ink-soft: #2f100a;
+  --accent: #782c17;
+  --tan: #cda373;
+  --paper: #f2d89c;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink-soft);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 56px 20px;
+}
+
+h1, h2, h3 {
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 0.5px;
+  margin: 0 0 16px 0;
+}
+
+p {
+  margin: 0 0 16px 0;
+  color: var(--ink-soft);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--tan);
+  margin: 32px 0;
+}
